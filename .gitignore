@@ -1,0 +1,11 @@
+# Build artifacts
+dist/
+build/
+*.egg-info/
+__pycache__/
+node_modules/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
