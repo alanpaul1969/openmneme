@@ -1,0 +1,37 @@
+{
+  "name": "openmneme",
+  "version": "0.0.1",
+  "description": "OpenMneme — your AI mneme. The science of memory, open-sourced.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo 'coming soon'"
+  },
+  "keywords": [
+    "memory",
+    "ai",
+    "mneme",
+    "pkm",
+    "knowledge-management",
+    "engram",
+    "cognitive"
+  ],
+  "author": "Alan Huang <alanpaul1969@alaya.love>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/alanpaul1969/openmneme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanpaul1969/openmneme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanpaul1969/openmneme/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
