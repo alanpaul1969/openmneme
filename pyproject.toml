@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openmneme"
+version = "0.0.1"
+description = "OpenMneme — your AI mneme. The science of memory, open-sourced."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Alan Huang", email = "alanpaul1969@alaya.love"}]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+keywords = ["memory", "ai", "mneme", "pkm", "knowledge-management"]
+
+[project.urls]
+Homepage = "https://github.com/alanpaul1969/openmneme"
+Repository = "https://github.com/alanpaul1969/openmneme"
