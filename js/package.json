@@ -1,0 +1,24 @@
+{
+  "name": "openmneme",
+  "version": "0.1.0",
+  "description": "Primitives for local-first AI agents — slash-skill, plan-mode, reviewer-gate, RLM.",
+  "license": "Apache-2.0",
+  "author": "Alan <alan@example.com>",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./slash-skill": "./slash-skill.js",
+    "./plan-mode": "./plan-mode.js",
+    "./reviewer-gate": "./reviewer-gate.js",
+    "./rlm": "./rlm.js"
+  },
+  "files": ["*.js", "README.md", "LICENSE"],
+  "keywords": ["ai", "agent", "primitives", "slash-skill", "plan-mode", "reviewer", "rlm", "local-first"],
+  "engines": { "node": ">=18" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanpaul1969/openmneme.git"
+  },
+  "homepage": "https://github.com/alanpaul1969/openmneme"
+}
